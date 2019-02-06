@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div>
+      <span>Single Name: <input type="text" id="sigName" placeholder="single name" name="sigItem"/></span>
+      <button id="btn1" onclick="manageList.addName()">addSingle</button>
+    </div>
+    <div>
+      <span>Comma Seperated Names: <input type="text" id="mulName" placeholder="comma seperated names" name="mulItem"/></span>
+      <button id="btn2" onclick="manageList.addNames()">addMultiple</button>
+    </div>
+    <div id="edit-div" style="display: none">
+      <span><input type="text" id="edited" value=""/><button onclick="manageList.edit()">Save</button></span>
+    </div>
+    <ul id="myList"></ul>
+  </body>
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+  <script src="script.js"></script>
+</html>
