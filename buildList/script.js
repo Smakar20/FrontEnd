@@ -7,9 +7,10 @@ var manageList = new function(){
     this.nameList = [];
     this.currIdx;
     this.addToList = ((names)=>{
+      if (names.length === 0) return;
       for (var name of names){
-        if (this.nameList.includes(name) === false){
-          this.nameList.push(name);
+        if (this.nameList.includes(name) === false && name.trim() !== ''){
+          this.nameList.push(name.trim());
         }
       }
       this.buildList();
