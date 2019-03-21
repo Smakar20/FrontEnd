@@ -1,0 +1,26 @@
+.row div {
+  width: 15%;
+	display: inline-block;
+  border: 1px solid red;
+  margin: 2%;
+  padding: 2%;
+  box-sizing: border-box;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.row {
+  width: 100%;
+	border: 2px solid blue;
+  margin: 2% auto;
+}
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+
+    .row div {
+        display: block;
+        width: 65%;
+        margin: 1% auto;
+    }
+}
