@@ -1,5 +1,6 @@
 # FrontEnd Interview preparation
-[𝐆𝐨𝐥𝐝𝐞𝐧 𝐑𝐮𝐥𝐞𝐬 𝐢𝐧 𝐚 𝐅𝐫𝐨𝐧𝐭𝐞𝐧𝐝 𝐒𝐲𝐬𝐭𝐞𝐦 𝐃𝐞𝐬𝐢𝐠𝐧 𝐈𝐧𝐭𝐞𝐫𝐯𝐢𝐞𝐰](#g𝐨𝐥𝐝𝐞𝐧-r𝐮𝐥𝐞𝐬-𝐢𝐧-𝐚-f𝐫𝐨𝐧𝐭𝐞𝐧𝐝-s𝐲𝐬𝐭𝐞𝐦-d𝐞𝐬𝐢𝐠𝐧-i𝐧𝐭𝐞𝐫𝐯𝐢𝐞𝐰)
+* [𝐆𝐨𝐥𝐝𝐞𝐧 𝐑𝐮𝐥𝐞𝐬 𝐢𝐧 𝐚 𝐅𝐫𝐨𝐧𝐭𝐞𝐧𝐝 𝐒𝐲𝐬𝐭𝐞𝐦 𝐃𝐞𝐬𝐢𝐠𝐧 𝐈𝐧𝐭𝐞𝐫𝐯𝐢𝐞𝐰](#g𝐨𝐥𝐝𝐞𝐧-r𝐮𝐥𝐞𝐬-𝐢𝐧-𝐚-f𝐫𝐨𝐧𝐭𝐞𝐧𝐝-s𝐲𝐬𝐭𝐞𝐦-d𝐞𝐬𝐢𝐠𝐧-i𝐧𝐭𝐞𝐫𝐯𝐢𝐞𝐰)
+* [What happens when you type a URL in the browser and press enter?](#what-happens-when-you-type-a-url-in-the-browser-and-press-enter?)
 ### 𝐆𝐨𝐥𝐝𝐞𝐧 𝐑𝐮𝐥𝐞𝐬 𝐢𝐧 𝐚 𝐅𝐫𝐨𝐧𝐭𝐞𝐧𝐝 𝐒𝐲𝐬𝐭𝐞𝐦 𝐃𝐞𝐬𝐢𝐠𝐧 𝐈𝐧𝐭𝐞𝐫𝐯𝐢𝐞𝐰
 1. If we are dealing with a user-intensive application, it's good to use lazy loading techniques for better performance.
 2. To prevent blocking of the UI thread, we should consider using Web Workers. Remember about its drawbacks.
@@ -34,3 +35,6 @@
 31. If your application deals with real-time data, consider using WebSockets or libraries such as Socket.IO for real-time, bidirectional communication between the client and the server.
 32. For managing side effects in your application, libraries like Redux-Thunk or Redux-Saga can be considered.
 33. If your application requires routing, libraries like React-Router can help manage different views for your app.
+
+### What happens when you type a url in the browser and press enter?
+[medium article](https://medium.com/@maneesa/what-happens-when-you-type-an-url-in-the-browser-and-press-enter-bb0aa2449c1a)
